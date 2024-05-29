@@ -1,0 +1,20 @@
+:root {
+  --primary-color: #5ECE7B;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+p {
+  color: black;
+  font-size: 18px;
+}
+button {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+nav {
+  z-index: 2000; 
+}

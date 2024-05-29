@@ -1,0 +1,45 @@
+.imgContainer {
+    width: fit-content;
+    
+}
+.cartBtn {
+    width: 292px;
+    height: 52px;
+    border: none;
+}
+.allImages, .imgContainer {
+    width: 60%;
+}
+.img , .carouselItem{ 
+    width: 100%;
+    height: fit-content;
+}
+.imgsColumn {
+    width: 79px;
+    height: 80px;
+}
+.description {
+    width: 292px;
+}
+.item {
+    Width:32px;
+    Height:32px;
+}
+.selectedItem {
+    background-color: black;
+    color: white; 
+  }
+  .colorSelectedItem {
+    border-color: red;
+  }
+.cartBtnDisabled{
+    width: 292px;
+    height: 52px;
+    border: none;
+    background-color: rgb(189, 184, 184);
+    pointer-events: none;
+}
+.imgsBtn {
+    background-color: white;
+    border:none;
+}

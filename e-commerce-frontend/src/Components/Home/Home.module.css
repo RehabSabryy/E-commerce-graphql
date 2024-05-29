@@ -1,0 +1,41 @@
+.heading {
+    font-weight: 400;
+    font-size: 42px;
+}
+.box {
+    width: 386px;
+    height: 444px;
+}
+.box:hover {
+     box-shadow: 0px 4px 35px 0px rgba(168, 172, 176, 0.19);
+}
+.productImg {
+    width:354px;
+    height: 330px;
+}
+.price {
+    font-weight:400 ;
+}
+.name {
+    font-weight: 300;
+}
+.icon {
+    background-color: rgba(94, 206, 123, 1);
+}
+.outStock {
+    opacity: 0.6;
+}
+.outStockText {
+    font-size: 24px;
+    font-weight: 400;
+}
+.cartButton {
+    visibility: hidden;
+  }
+  
+  /* Show the cart button when hovering over the product box */
+  .box:hover .cartButton {
+    visibility: visible;
+  }
+
+  
